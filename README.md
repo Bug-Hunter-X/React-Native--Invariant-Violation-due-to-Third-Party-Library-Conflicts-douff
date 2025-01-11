@@ -1,0 +1,3 @@
+This repository demonstrates a common yet tricky bug in React Native development: Invariant Violations stemming from dependency conflicts within third-party libraries. The vague error messages often make debugging challenging.
+
+The `bug.js` file showcases a scenario where a hypothetical library (`react-native-awesome-library`) creates this issue. The solution, detailed in `bugSolution.js`, involves carefully examining the dependency tree and potentially adjusting package versions or finding alternative libraries.
